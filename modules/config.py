@@ -23,6 +23,10 @@ targets_ios = [
     {"target_os": "ios", "target_cpu": "arm64", "pdfium_os": "ios"},
     {"target_os": "ios", "target_cpu": "x64", "pdfium_os": "ios"},
 ]
+sdks_ios = [
+    "iphoneos",
+    "iphonesimulator",
+]
 
 # android
 configurations_android = ["release"]
